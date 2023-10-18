@@ -1,0 +1,35 @@
+.lent{
+    background-color: rgb(32,32,32)grey;/*szurkebol feketebe fade*/
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('../img/kosarb.jpg');
+}
+.tartalom{
+    color: darkgrey;
+    background-color: rgb(32,32,32);
+}
+.navbar-custom {
+    background-color:rgb(32,32,32);  /*opacity*/
+    margin: 0px;
+    padding: 0px;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+.jobb{
+    height: 300px;
+    border-radius: 15px;
+}
+.bajnoksagok{
+    display: flex;
+    width: 25%;
+    float: left;
+}
+.col{
+    margin: auto;
+}
