@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sportok - Kosárlabda</title> <!--Aloldal címe-->
-    <link rel="icon" href="webicon.png" type="image/x-icon"> <!--adott sport "labdája"-->
+    <link rel="icon" href="../img/kosarwicon.png" type="image/x-icon"> <!--adott sport "labdája"-->
     <link rel="stylesheet" href="../cssjs/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../cssjs/kosarstyle.css"!important>
     <style>
-        footer{
-            background-color: rgb(32,32,32);
-        }
         body{
             background-image: url("../img/khatter.jpg");
             background-repeat: no-repeat;
@@ -24,15 +22,15 @@
                     <nav class="bar navbar-custom">
                             <div>
                                     <ul>
-                                        <li><a href="./index.html"><span class="home">Főoldal</span></a></li>
-                                        <li><a href="./foci.html">Labdarúgás</a></li>
-                                        <li><a href="./kosar.html">Kosárlabda</a></li>
-                                        <li><a href="./hoki.html">Jégkorong</a></li>  
-                                        <li><a href="#bottom">Kapcsolat</a></li>                           
+                                        <li><a class="text-primary" href="./index.html"><span class="home">Főoldal</span></a></li>
+                                        <li><a class="text-primary" href="./foci.html">Labdarúgás</a></li>
+                                        <li><a class="text-primary" href="./kosar.html">Kosárlabda</a></li>
+                                        <li><a class="text-primary" href="./hoki.html">Jégkorong</a></li>  
+                                        <li><a class="text-primary" href="#bottom">Kapcsolat</a></li>                           
                                         <li>
-                                            <a href="https://trello.com/w/hupikektorpikek" target="_blank"><img class="icon" src="../img/trello.png" alt="Trello"></a>
-                                            <a href="https://mail.google.com/" target="_blank"><img class="icon" src="../img/email.png" alt="Email"></a>
-                                            <a href="https://www.sofascore.com/" target="_blank"><img class="icon" src="../img/ss.jpg" alt="Sofascore"></a>
+                                            <a href="https://trello.com/w/hupikektorpikek" target="_blank"><img class="icon" src="../img/ftrello.png" alt="Trello"></a>
+                                            <a href="https://mail.google.com/" target="_blank"><img class="icon" src="../img/femail.png" alt="Email"></a>
+                                            <a href="https://www.sofascore.com/" target="_blank"><img class="icon" src="../img/fss.png" alt="Sofascore"></a>
                                         </li>                                                                                                        
                                     </ul>
                             </div>
@@ -42,38 +40,66 @@
                 <div class="row">
                     <div class="col col-3"> <!--h3 mas szinu hatterrel-->
                         <div class="card tartalom">
-                            <h3>Valami</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quaerat molestias consectetur laboriosam odio optio voluptas at, delectus deleniti ipsum distinctio rerum et nostrum obcaecati consequatur minus fugit, sint asperiores dolorum qui laborum soluta quos!
-                            </p>
+                            <h3><i class="bi-calendar3"></i>Eredmények</h3>
+                                <table>
+                                        <tr><td>1998.06.14 NBA döntő, 6.meccs  <br>
+                                            <span class="meccs">Chicago Bulls  87 - 86 Utah Jazz</span>
+                                        </td></tr>
+                                        <tr><td>2002.09.08 FIBA világbajnokság döntő <br>
+                                            <span class="meccs">Jugoszlávia 87 - 77 Argentína</span>    
+                                        </td></tr>
+                                        <tr><td>2006.08.15 FIBA Bajnokcsapatok Kupája döntő <br>
+                                            <span class="meccs">Görögország 84 - 47 Németország</span>
+                                        </td></tr>
+                                        <tr><td>1993.02.21 NBA All-Star mérkőzés <br>
+                                            <span class="meccs">Nyugat 135 - 132 Kelet</span>
+                                        </td></tr>
+                                        <tr><td>2008.08.10 Olimpiai döntő <br>
+                                            <span class="meccs">USA 118 - 107 Spanyolország</span>
+                                        </td></tr>
+                                        <tr><td>2023.05.21 EuroLiga döntő <br>
+                                            <span class="meccs">Real Madrid 79 - 78 Olimpiakosz</span>
+                                        </td></tr>
+                                        <tr><td>2023.04.09 Magyar férfi kosárlabdakupa döntő <br>
+                                        <span class="meccs">Falco KC Szombathely 92 - 48 Soproni KC</span>
+                                        </td></tr>  
+                                        <tr><td>2023.04.09 Magyar férfi kosárlabdakupa döntő <br>
+                                            <span class="meccs">Falco KC Szombathely 92 - 48 Soproni KC</span>
+                                        </td></tr> 
+                                        <tr><td>2023.04.09 Magyar férfi kosárlabdakupa döntő <br>
+                                            <span class="meccs">Falco KC Szombathely 92 - 48 Soproni KC</span>
+                                        </td></tr> 
+                                </table>                                      
                         </div>
                     </div>
                     <div class="col col-6">
                         <div class="card tartalom"> 
+                            <h3><i class="bi-chat-left-text"></i>Sporttörténet</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reprehenderit recusandae excepturi iusto fugiat aut laudantium modi natus! Reiciendis minus quibusdam saepe dignissimos autem veritatis, officia aspernatur harum, tempora magnam nisi, recusandae dolore voluptatem! Pariatur, nihil reprehenderit eos itaque hic, rerum necessitatibus incidunt fugiat minima illo alias cum veritatis quod excepturi earum fuga, vel repellat iusto officiis iste cupiditate nam sunt quaerat? Consectetur assumenda aliquid soluta alias a dolor ut perspiciatis voluptatibus magnam nesciunt molestiae facere quia eveniet porro saepe, debitis dolorum repellat iure ad neque. Assumenda a nostrum quod asperiores aut veritatis id quasi sequi, voluptatem molestiae rerum ea ad maiores provident ipsam, quis consectetur repellat similique facere! Ex et asperiores laudantium aliquid assumenda? Ullam deleniti excepturi saepe reprehenderit!
-
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aliquam consequuntur aliquid voluptates quia cumque explicabo voluptatum amet fugit rem nam neque quas hic fugiat necessitatibus ea eligendi possimus animi architecto officiis nostrum, magni tempore natus ut? Hic, reiciendis rem. Perspiciatis eveniet ipsam animi omnis velit temporibus eos illum provident ducimus, quidem quibusdam deleniti fugit doloremque voluptatem fuga hic quo tenetur modi repudiandae? Doloribus tempore veritatis nostrum vero nesciunt! Reprehenderit illum, laudantium dolor doloremque ipsum inventore sed asperiores. Consequatur eum, autem libero laborum deserunt similique voluptatibus cumque inventore optio, sed voluptates corporis nulla reiciendis illum maiores dolorem consequuntur! Dolores, eveniet.
                             </p>
-                            <p>Moduletable</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel accusamus beatae tempore, quia quas asperiores, earum corrupti nihil atque facilis quae, error quos ex aliquid minus illum sapiente reprehenderit? Maxime nulla quibusdam explicabo ullam sunt nobis repudiandae, architecto consequuntur. Veritatis aspernatur qui facilis harum! Repudiandae enim illum dicta sunt a, nam saepe dolorem sed deserunt. Dolor harum neque inventore laborum, alias sequi dolorem veniam quasi numquam enim. Commodi exercitationem, earum voluptatum numquam possimus dolore odio et laudantium recusandae, ipsum unde nesciunt illum vitae provident nisi est harum autem aspernatur vel dolorem expedita, deleniti veniam. Quod, similique nisi! Ea, ipsa at?
+                            </p>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis pariatur corrupti ea modi voluptatum sit doloribus repellendus dicta ad voluptate! A quaerat, nisi commodi repellat non debitis reprehenderit tempore, id aliquam eveniet fuga repudiandae velit quis vero harum doloribus ab quas? Debitis voluptatum aliquid recusandae eligendi in tenetur placeat ad quia doloremque magni ex iusto quisquam eveniet saepe sapiente quidem omnis, eaque dolor tempora, distinctio dicta modi culpa officiis. Maxime nisi delectus cumque earum nulla blanditiis officiis, quaerat minus soluta culpa ex esse natus id officia fugit fuga quo alias magnam mollitia molestias
+                            </p>
                         </div>
                     </div>
                     <!--alatta video-->
-                </div>
+                </div>   
                 <div class="row">
                     <div class="col col-3 bajnoksagok">
                         <div class="card tartalom">
-                            <h3>Bajnokságok</h3>
+                            <h3><i class="bi-person-fill"></i>Magyar ikon</h3>
+                            <img class="idkep" src="../img/dk1.png" alt="Dávid Kornél">
                             <p>
-                                Felsorolas
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, provident. Aut nisi incidunt similique voluptates? Magnam cumque amet exercitationem! Sit iure distinctio a illum possimus quis doloremque hic numquam, quas quasi explicabo, minima recusandae fuga ex quisquam dolorem rerum fugiat placeat! Quam placeat quia minus facilis totam labore possimus molestias vero, magnam earum suscipit nisi quisquam cum? Magni delectus necessitatibus commodi maiores dolor consequuntur quos esse temporibus nostrum omnis. Nihil tempora consectetur perspiciatis enim tenetur amet deleniti recusandae vel maiores! 
-                            </p>
-                            <p>
-                                Moduletable
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo magni illum fugit fuga ab voluptates cupiditate, quod exercitationem aliquam at esse ad minus voluptatum repellendus necessitatibus dolorum molestias doloremque praesentium. Totam sint excepturi repellat amet nesciunt, reprehenderit eligendi ab nostrum, praesentium quos harum labore nemo. Quasi animi adipisci eius ex doloribus suscipit eos dolores repellat voluptatibus? Necessitatibus numquam enim magnam repellendus provident alias natus, totam quidem velit expedita itaque aperiam molestias tempore ea ad voluptatibus id sapiente rem amet in.
                             </p>
                         </div>
                     </div>
                     <div class="col col-6">
-
+                        <iframe width="750" height="380" src="https://www.youtube.com/embed/awKO21akshE?si=uN7Kxqa8kJSs0w2R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
                 <footer id="bottom">
@@ -99,6 +125,7 @@
                             </div>
                         </div>
                 </footer>
+                <!--fade feketebe es ugy-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         <script src="../cssjs/main.js"></script>
 </body>

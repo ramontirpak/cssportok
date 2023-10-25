@@ -1,12 +1,31 @@
-.lent{
-    background-color: rgb(32,32,32)grey;/*szurkebol feketebe fade*/
+h3{
+    background-color: rgb(218, 0, 0);
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
-p{
-    margin: 0px;
-    padding: 0px;
+i{
+    padding-left: 10px;
+    padding-right: 10px;
 }
-body{
-    background-image: url('../img/kosarb.jpg');
+li{
+    color: red;
+}
+tr:nth-child(even) {
+    background-color: #3f3d3d;
+}
+td{
+    padding: 5px;
+    text-align: center;
+}
+iframe{
+    display: block;
+    margin: auto;
+}
+footer{
+    background-color: rgb(32,32,32);
 }
 .tartalom{
     color: darkgrey;
@@ -21,15 +40,23 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.jobb{
-    height: 300px;
-    border-radius: 15px;
-}
-.bajnoksagok{
-    display: flex;
-    width: 25%;
-    float: left;
-}
 .col{
+    vertical-align: top;
     margin: auto;
+}
+.lent{
+    background-color: rgb(32,32,32)grey;/*szurkebol feketebe fade*/
+}
+.card{
+    border-radius: 15px;
+    margin-left: 80px;
+}
+.text-primary{
+    color: red!important;
+}
+.home{
+    color:red;
+}
+.meccs{
+    color: white;
 }
