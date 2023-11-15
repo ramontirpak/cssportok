@@ -1,3 +1,7 @@
+* {
+    cursor: url('Wiinormal.cur');
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -145,10 +149,8 @@ span{
     text-align: justify;
 }
 .forras{
-    display: flex;
-    margin: auto;
-    vertical-align: middle;
     float: right;
+    padding-top: 5px;
 }
 .waviy { /*bounce*/
     position: relative;
